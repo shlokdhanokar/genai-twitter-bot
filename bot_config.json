@@ -1,0 +1,40 @@
+{
+  "rss_feeds": [
+    {"url": "https://indianexpress.com/section/business/budget/feed/", "category": "business"},
+    {"url": "https://indianexpress.com/section/business/feed/", "category": "business"},
+    {"url": "https://indianexpress.com/section/world/climate-change/feed/", "category": "world"},
+    {"url": "https://indianexpress.com/section/business/companies/feed/", "category": "business"},
+    {"url": "https://indianexpress.com/section/business/economy/feed/", "category": "business"},
+    {"url": "https://indianexpress.com/elections/feed/", "category": "politics"},
+    {"url": "https://indianexpress.com/section/entertainment/feed/", "category": "entertainment"},
+    {"url": "https://indianexpress.com/section/education/festivals/feed/", "category": "education"},
+    {"url": "https://indianexpress.com/section/india/feed/", "category": "india"},
+    {"url": "https://indianexpress.com/section/technology/feed/", "category": "technology"},
+    {"url": "https://indianexpress.com/section/trending/feed/", "category": "trending"},
+    {"url": "https://indianexpress.com/section/trending/trending-in-india/feed/", "category": "trending"},
+    {"url": "https://indianexpress.com/section/trending/trending-globally/feed/", "category": "trending"}
+  ],
+  
+  "priority_keywords": [
+    "Modi", "Donald Trump", "Trump", "Narendra Modi", "Airstrike", "Rahul Gandhi", "stock market", 
+    "crash", "earthquake", "crypto", "flood", "AI", "ban", "twitter", "India vs Pakistan", 
+    "inflation", "budget", "Elon Musk", "ISRO", "NASA", "Adani", "Ambani", "war", "Boycott", 
+    "Supreme Court", "BJP"
+  ],
+  
+  "category_weights": {
+    "trending": 5,
+    "politics": 5,
+    "india": 4,
+    "world": 4,
+    "business": 4,
+    "entertainment": 3,
+    "technology": 3,
+    "education": 2
+  },
+  
+  "tweets_per_run": 3,
+  "max_news_age": 2,
+  "tweet_method": "selenium",
+  "tweet_delay": 15
+}
